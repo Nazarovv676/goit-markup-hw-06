@@ -1,0 +1,268 @@
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .hidden {
+    display: contents;
+  }
+
+  .page-nav {
+    align-items: center;
+  }
+
+  .for-desktop {
+    display: contents;
+  }
+  .hidden-for-desktop {
+    display: none;
+  }
+  .menu,
+  .page-nav,
+  .list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu-item,
+  .address-item {
+    margin-right: 0;
+  }
+
+  .address .list {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .menu {
+    padding-top: 0;
+    gap: 0;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .menu-item:first-child::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -27px;
+    right: 0;
+    background: var(--hover-and-focus-color);
+    border-radius: 2px;
+    transition: width 0.5s, left 0.5s;
+  }
+  .menu-item {
+    position: relative;
+  }
+
+  .portfolio-box {
+    gap: 48px 24px;
+  }
+
+  .menu-link {
+    padding: 0;
+  }
+  .address {
+    margin-top: 0;
+  }
+
+  .logo {
+    margin-right: 76px;
+  }
+
+  .for-mobile-laptop {
+    display: none;
+  }
+
+  .contact {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+
+  .hero {
+    max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--small-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 0;
+  }
+
+  .main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+
+    color: var(--background-color);
+  }
+
+  .small-descr-section .list {
+    flex-direction: row;
+    gap: 24px;
+    align-items: baseline;
+  }
+
+  .small-text-image {
+    width: 264px;
+    height: 112px;
+    background-color: rgba(244, 244, 253, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+  .small-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* SLATE */
+
+    color: #434455;
+  }
+
+  .small-descr-section {
+    padding: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .small-descr-section-item .small-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+
+    letter-spacing: 0.02em;
+    color: var(--small-text-color);
+
+    text-align: left;
+    margin-top: 8px;
+  }
+  .what-are-we-doing {
+    padding: 0;
+    padding-top: 120px;
+  }
+  .what-are-we-doing-item {
+    border: 1px solid #e7e9fc;
+    margin-right: 24px;
+  }
+
+  .our-team-list-item {
+    margin: 0;
+  }
+
+  .our-team-list {
+    gap: 24px;
+  }
+
+  .our-team {
+    padding-bottom: 120px;
+  }
+
+  .our-team-list-item .small-descr {
+    margin-top: 8px;
+  }
+
+  .customers-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-item {
+    width: 168px;
+    height: 88px;
+  }
+
+  .our-portfolio-container {
+    padding: 120px 0;
+  }
+
+  .links,
+  .footer-form {
+    margin-top: 0;
+  }
+
+  .footer-input {
+    width: 264px;
+  }
+
+  .footer-buttom {
+    margin-left: 0;
+  }
+
+  .address .contact,
+  .address .contact-email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 117% */
+
+    letter-spacing: 0.04em;
+
+    /* SLATE */
+
+    color: #434455;
+  }
+
+  .portfolio-item {
+    max-width: 396px;
+  }
+
+  .portfolio-picture-descr .small-descr {
+    margin-top: 8px;
+  }
+
+  .webstudio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: left;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .input-button-footer {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero_desktop@2x.jpg");
+    }
+  }
+}

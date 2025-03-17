@@ -1,0 +1,290 @@
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  :root {
+    --small-text-color: #2e2f42;
+    --background-color: #ffffff;
+    --hover-and-focus-color: #404bbf;
+    --blue-button-and-logo-color: #4d5ae5;
+    --small-text-dark-theme-color: #f4f4fd;
+    --green-icon-focus-hover-color: #31d0aa;
+  }
+
+  .hidden {
+    display: contents;
+  }
+  .hidden-for-laptop {
+    display: none;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .page-footer .container {
+    max-width: 584px;
+    gap: 72px 24px;
+  }
+
+  /* ================HEADER STARTED================ */
+  .page-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .portfolio-box {
+    gap: 48px 24px;
+  }
+
+  .page-header-boxing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .page-nav {
+    align-items: center;
+  }
+  .menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--small-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    position: relative;
+    margin-right: 40px;
+  }
+
+  .menu-link {
+    padding: 0;
+  }
+  .contact {
+    font-family: "Roboto";
+    margin-right: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+    color: #434455;
+  }
+
+  .header-links {
+    line-height: 0;
+  }
+
+  /* ================HEADER ENDED================ */
+
+  /* ================HERO STARTED================ */
+
+  .hero {
+    max-width: 768px;
+  }
+  .main-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-transform: none;
+  }
+
+  .hero-button {
+    margin-top: 36px;
+  }
+
+  .hero {
+    max-width: 100%;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/mobile/hero-backgr-laptop.jpg");
+  }
+  /* ================HERO ENDED================ */
+
+  /* ================FIRST SECTION STARTED================ */
+  .small-descr-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .small-descr-section-item {
+    min-width: 356px;
+  }
+
+  .small-descr-section .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .small-title {
+    text-align: left;
+  }
+
+  /* ================FIRST SECTION ENDED================ */
+
+  /* ================OUR TEAM SECTION STARTED================ */
+
+  .our-team {
+    padding-bottom: 96px;
+  }
+  .our-team-list-item {
+    max-width: 264px;
+    margin: 0;
+  }
+
+  .our-team-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .our-team-list .small-title {
+    margin-bottom: 8px;
+  }
+
+  .our-team-list-item .small-title {
+    text-align: center;
+  }
+  /* ================OUR TEAM ENDED================ */
+
+  /* ================CUSTOMERS STARTED================ */
+
+  .customers-item:nth-child(2n + 1) {
+    margin-right: 0;
+  }
+
+  .customers-list {
+    justify-content: center;
+  }
+
+  .customers-link {
+    width: 168px;
+  }
+
+  .customers-item:nth-child(3),
+  .customers-item:nth-child(6) {
+    margin-right: -20px;
+  }
+  .customers-item:nth-child(3n + 1) {
+    margin-left: 0;
+  }
+
+  .small-descr-portfolio {
+    margin-top: 8px;
+    font-weight: 400;
+  }
+
+  /* ================CUSTOMERS ENDED================ */
+
+  /* ================FOOTER STARTED================ */
+
+  .page-footer {
+    text-align: left;
+  }
+  .footer-descr {
+    margin: 0;
+  }
+
+  .footer-button {
+    margin-left: 24px;
+    width: calc(165px + 32px);
+    padding: 8px 24px;
+  }
+
+  .input-button-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .footer-input {
+    max-width: 264px;
+  }
+
+  .footer-header {
+    margin-top: 0;
+  }
+  .input-button-footer {
+    flex-wrap: nowrap;
+  }
+
+  .webstudio-container .links {
+    margin-top: 0;
+    margin-left: 24px;
+  }
+  .webstudio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+
+  /* ================FOOTER ENDED================ */
+
+  .portfolio-item {
+    max-width: 356px;
+  }
+
+  .footer-icon {
+    top: 10px;
+  }
+
+  .buttons-list-portfolio {
+    justify-content: center;
+  }
+
+  .address .contact,
+  .address .contact-email {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    /* identical to box height, or 117% */
+
+    letter-spacing: 0.04em;
+
+    /* SLATE */
+
+    color: #434455;
+  }
+
+  .address .list {
+    gap: 5px;
+  }
+
+  .menu-item:first-child .menu-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -26px;
+    right: 0;
+    background: var(--hover-and-focus-color);
+    border-radius: 2px;
+    transition: width 0.5s, left 0.5s;
+    left: 0;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero-laptop@2x.jpg");
+    }
+  }
+}

@@ -357,7 +357,8 @@ ul.list .address-item:last-child {
 }
 
 .our-portfolio-container {
-  padding: 48px 0;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .portfolio-picture-descr {
@@ -770,7 +771,7 @@ ul.list .address-item:last-child {
 .modal-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  width: 100%;
+  width: 288px;
   background-color: transparent;
   height: 40px;
   margin-top: 4px;
@@ -918,7 +919,6 @@ ul.list .address-item:last-child {
   border-radius: 4px;
   min-width: 165px;
   height: 40px;
-  margin-left: 24px;
   position: relative;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1127,6 +1127,9 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
 @media screen and (max-width: 420px) {
   .hero {
     width: 100%;
+    background-size: cover;
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
 }
 
@@ -1139,6 +1142,6 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container {
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/mobile/hero-mobile@2x.jpg");
-    background-size: 100%;
+    background-size: cover;
   }
 }
